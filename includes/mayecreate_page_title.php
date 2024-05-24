@@ -16,6 +16,7 @@ function mayecreate_page_title() {
 		echo '</div>';
 
 		$heroBtn = get_field('hero_button');
+		$heroBtnID = get_field('hero_button_id');
 		if($heroBtn) {
 			$heroBtn_url = $heroBtn['url'];
 			$heroBtn_title = $heroBtn['title'];
@@ -23,7 +24,7 @@ function mayecreate_page_title() {
 			?>
 			<div class="row">
 				<div class="col-md-12"><div class="buttons-wrapper">
-					<a class="btn-mayecreate yellow-border" href="<?php echo esc_url( $heroBtn_url ); ?>" target="<?php echo esc_attr( $heroBtn_target ); ?>"><?php echo esc_html( $heroBtn_title ); ?></a>
+					<a class="btn-mayecreate yellow-border" id="<?php if($heroBtnID){ echo $heroBtnID;} ?>" href="<?php echo esc_url( $heroBtn_url ); ?>" target="<?php echo esc_attr( $heroBtn_target ); ?>"><?php echo esc_html( $heroBtn_title ); ?></a>
                 </div></div>
 			</div>
             <style>
