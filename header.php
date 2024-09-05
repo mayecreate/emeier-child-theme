@@ -154,7 +154,7 @@ if ( (is_front_page()) || (is_page(211)) || (is_page(214)) || (is_page(217)) || 
 	<div style="position:absolute; overflow:hidden;height: 100%;width:100%;;z-index:1;" class="video_outer_wrapper">
 			<div id="video_outer" style="position:absolute;width:100%;height:100%;">
 				<div id="video_wrapper">
-					<div class='embed-container'><iframe id="slider_video" src='https://player.vimeo.com/video/714107204?autoplay=1&loop=1&autopause=0&muted=1' allow="autoplay; fullscreen" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+					<div class='embed-container'><iframe id="slider_video" src='https://player.vimeo.com/video/714107204?autoplay=1&loop=1&autopause=0&muted=1&background=1&controls=0' allow="autoplay; fullscreen" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 				</div>
 			</div>
 		</div>
